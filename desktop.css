@@ -1,0 +1,85 @@
+@media (min-width: 720px) {
+    #container header {
+        padding: 1.5rem 2rem;
+    }
+
+    #container .content {
+        padding: 0 2rem;
+    }
+
+    #container .content .title {
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    #container .content .title .div-title {
+        display: block;
+        width: 100%;
+    }
+
+    #container .content .cards {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    #container .content .cards section {
+        width: 45%;
+        padding: 1.5rem;
+    }
+
+    #container .content .cards section {
+        margin-top: 0;
+        margin-right: 2rem;
+    }
+
+    #container .content .cards section:first-child {
+        width: 100%;
+    }
+
+    #container .content .cards section:first-child input {
+        width: auto;
+    }
+
+    #container .content .cards section:last-child h1 {
+        font-size: 2.6rem;
+    }
+
+    #container .content .cards section:last-child {
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 900px) {
+    #container .content .cards section:first-child {
+        width: 50%;
+    }
+
+    #container .content .cards section:last-child h1 {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media (min-width: 1080px), (max-width: 1440px) {
+    :root {
+        font-size: 1rem;
+    }
+    
+    #container header {
+        padding: 2rem 7rem;
+    }
+
+    #container .content {
+        padding: 2rem 7rem;
+    }
+
+    #container .content .cards section {
+        padding: 3rem;
+    }
+
+    #container .content .cards section:first-child button {
+        width: 30%;
+    }
+}

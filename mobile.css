@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+    --background: #f6f6f6;
+    --background-card: #fff;
+}
+
+body {
+    background: var(--background);
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#container header {
+    padding: 2rem 1.5rem;
+    background: var(--background-card);
+}
+
+#container header small {
+    color: #5AB915;
+    font-size: 2rem;
+}
+
+#container .content {
+    padding: 2rem 1.5rem;
+}
+
+#container h1.title {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    /* margin-left: 1.5rem; */
+    display: block;
+    width: 60%;
+}
+
+#container h1.title small{
+    font-size: 5rem;
+}
+
+#container .cards {
+    margin-top: 3rem;
+}
+
+#container .cards section {
+    background: #fff;
+    border-radius: .7rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#container .cards section:last-child {
+    background: #5AB915;
+    color: #fff;
+}
+
+#container .cards section input.input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .7rem;
+    border: 2px solid;
+    border-color: #dcdcdc;
+    border-radius: .7rem;
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+#container .cards section input.input:focus {
+    border-color: #5AB915;
+}
+
+#container .cards section button {
+    padding: .7rem;
+    background: #5AB915;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: .7rem;
+    width: 50%;
+    cursor: pointer;
+}
+
+#container .cards section + section {
+    margin-top: 2rem;
+}
+
+#container .cards section h2 {
+    font-size: 1.2rem;
+}
+
+#container .cards section h1 {
+    margin-top: 1rem;
+    font-size: 4rem;
+}

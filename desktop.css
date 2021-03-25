@@ -62,9 +62,31 @@
 
 }
 
-@media (min-width: 1080px), (max-width: 1440px) {
+@media (min-width: 1080px) {
     :root {
         font-size: 1rem;
+    }
+    
+    #container header {
+        padding: 2rem 7rem;
+    }
+
+    #container .content {
+        padding: 2rem 7rem;
+    }
+
+    #container .content .cards section {
+        padding: 3rem;
+    }
+
+    #container .content .cards section:first-child button {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1440px) {
+    :root {
+        font-size: 2rem;
     }
     
     #container header {
